@@ -183,12 +183,16 @@ h1{
 .footer-bg{
     width: 100%;
     height: 50px;
-    background-color: darkblue;
+    background-color: var(--color);
     display:flex;
     justify-content: center;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 0;
+}
+
+.footer-bg img{
+    object-fit: cover;
+    transform: translate(0, -50%);
 }
 
 .footer2{
@@ -196,6 +200,7 @@ h1{
     display:flex;
     justify-content: space-between;
     align-items: center;
+
 
 }
 
@@ -206,3 +211,35 @@ h1{
 form[type="submit"]{
 
 }
+.bottom{
+    background: url("images/bg2.png"), rgba(5, 82, 141, 0.95);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.bottom form{
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+:root{
+    --color: #05528d;
+
+}
+
+/*
+
+// document.documentElement.style.setProperty('--color', 'red');
+
+document.querySelector('btn').addEventListener('click', () => {
+    document.documentElement.style.setProperty('--color', 'red');
+});*/
