@@ -6,16 +6,19 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 <body>
 
-<div class="top">
-    <p>Tālrunis +371 29 999 999</p>
-    <div class="buttons">
-        <div class="btn" style="background-color:darkblue"></div>
-        <div class="btn" style="background-color:purple"></div>
-        <div class="btn" style="background-color:#1e1e1e"></div>
-        <div class="btn" style="background-color:yellow"></div>
+<div class="top-bg">
+    <div class="top">
+        <p>Tālrunis +371 29 999 999</p>
+        <div class="buttons">
+        <div class="btn blue" style="background-color:darkblue"></div>
+        <div class="btn purple" style="background-color:purple"></div>
+        <div class="btn black" style="background-color:#1e1e1e"></div>
+        <div class="btn yellow" style="background-color:yellow"></div>
+    </div>
     </div>
 </div>
 <div class="top-heading">
@@ -27,80 +30,103 @@
 </div>
 <div class="content">
 
-    <div class="text-container">
-        <div class="text-left">
-            <h3>Programmatūras izstrāde</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam architecto beatae blanditiis commodi consectetur corporis delectus deleniti dicta dolorum ea enim eos error, explicabo facere facilis iure libero molestias nesciunt optio perferendis perspiciatis quo repellat vitae! Accusamus architecto, beatae consectetur dignissimos doloremque ducimus earum est ex excepturi facilis fugiat iste magni nam natus non nostrum, omnis pariatur porro provident quaerat quasi quia quidem quod reprehenderit sint temporibus vel voluptas? A ab ad consequatur corporis error excepturi magnam modi odio, optio placeat porro quod recusandae reiciendis, saepe tempore. Asperiores autem cum dolorum facilis ipsa magni neque nihil non, ratione repellat sapiente ullam. Accusantium, alias amet beatae consequatur deserunt doloribus eaque eius error esse harum ipsa itaque labore magnam mollitia optio pariatur quaerat quod, quos sed, totam, qoud? Error esse harum ipsa itaque labore magnam mollitia optio pariatur quaerat quod, quos sed, totam, qoud!
-                <button class="read-btn">Read More</button>
-            </p>
+    <h2 id="title">Mūsu specializācija ir moderni IT risinājumi</h2>
+    <p id="under-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquid aperiam dolore impedit laborum natus odit praesentium unde voluptate? A accusamus, aliquam aperiam architecto assumenda aut deserunt dicta dolores dolorum ducimus exercitationem expedita facilis hic, ipsum libero nesciunt nisi numquam odio odit omnis, optio possimus quae quas quo quos reprehenderit similique sit suscipit vel voluptas. Adipisci aliquid autem corporis deserunt dolore dolores, error, libero non provident quae quas quis, quo repellendus totam veniam. Alias animi, commodi dolor enim facilis laudantium nobis praesentium voluptatum! Eveniet libero molestiae officiis quaerat quas reiciendis rem rerum? Ad animi eius id illo, ipsam nihil nulla.</p>
 
+    <div class="sect-title">
+        <h2 style="margin-top: 4px;
+    margin-right: 5px;">Mūsu</h2>
+        <div class="sec-title-second">
+            <h2>pakalpojumi</h2>
         </div>
-        <div class="text-right">
-            <div class="inner-text">
+    </div>
+    <div class="card-wrapper">
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src=" https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
+                <h3>Programmatūras izstrāde</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src="https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
                 <h3>Palīdzība IT jautājumos</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus libero provident quasi
-                    reprehenderit velit! Alias architecto aspernatur, autem corporis cum cumque dicta dolor excepturi
-                    explicabo facilis hic ipsum itaque laboriosam laudantium maxime minus modi mollitia necessitatibus
-                    nemo nobis non nostrum placeat possimus quae quo quos sapiente soluta tenetur voluptate
-                    voluptatibus?
-                    <button class="read-btn">Read More</button>
-                </p>
-
-            </div>
-            <div class="inner-text">
-                <h3>Datoru noma</h3>
-                <p>Deleniti dolore, enim illum iusto modi nulla obcaecati, quasi repellat repellendus rerum sapiente sed
-                    temporibus, unde? Alias at dignissimos eligendi mollitia ullam unde! Accusantium amet deleniti
-                    deserunt dicta dolorem eveniet exercitationem fuga fugiat harum illo impedit ipsum iusto, odit
-                    placeat quae quo rem repellat repellendus similique sit tempore voluptas voluptatem.
-                    <button class="read-btn">Read More</button>
-                </p>
-            </div>
-            <div class="inner-text">
-                <h3>IT sistēmu audits</h3>
-                <p>Ad adipisci commodi, distinctio doloribus earum eos expedita harum in laboriosam magnam nam natus
-                    neque quia, reiciendis reprehenderit sapiente sequi totam vel velit voluptatibus. Accusamus aliquid
-                    animi dolor, error eum facilis fugiat modi nesciunt possimus quod sit voluptate voluptatibus!
-                    Accusamus architecto asperiores dolorem doloribus maxime pariatur placeat quasi soluta?
-                    Accusantium!
-                    <button class="read-btn">Read More</button>
-                </p>
-            </div>
-            <div class="inner-text">
-                <h3>Datoru apkalpošana</h3>
-                <p>A atque consequatur deleniti dicta, distinctio eum ex, facilis impedit nam numquam placeat quas, quo
-                    reiciendis sint sunt vel veritatis vero. Dicta, expedita facere pariatur praesentium quas ratione
-                    sint voluptatem. Assumenda autem debitis delectus deleniti doloribus eaque, iste iusto magni numquam
-                    perspiciatis quae quo saepe voluptate! Animi dolor error laudantium.
-                    <button class="read-btn">Read More</button>
-                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
             </div>
         </div>
-
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src="https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
+                <h3>Datoru noma</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src="https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
+                <h3>Datu serviss</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src="https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
+                <h3>Īpaši izdevīga datoru apkalpošana</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-left">
+                <img class="icon-image" src="https://img.icons8.com/ios/50/000000/monitor.png"/>
+            </div>
+            <div class="card-right">
+                <h3>It sistēmu audits</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut blanditiis consectetur consequuntur, eos est et facilis impedit in inventore iusto laboriosam pariatur quaerat qui quia reprehenderit totam ut!</p>
+            </div>
+        </div>
     </div>
 
-    <h2>Mūsu vērtības</h2>
+    <div class="sect-title">
+        <h2 style="margin-top: 4px;
+    margin-right: 5px;">Mūsu </h2>
+        <div class="sec-title-second">
+            <h2>vērtības</h2>
+        </div>
+    </div>
+
+
 
     <div class="card-container">
-        <div class="card">
+        <div class="card2">
             <img class="card-icon"src="images/i1.png" alt="">
             <h4>Kvalitatīvi pakalpojumi</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta dolores ex fuga magnam mollitia non, nostrum omnis pariatur praesentium quibusdam. Ad adipisci alias.</p>
             <div class="card-btn">Read More</div>
         </div>
-        <div class="card">
+        <div class="card2">
             <img class="card-icon"src="images/i2.png" alt="">
             <h4>Profesionāla komanda</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda eos est ipsam omnis pariatur quod? Dignissimos doloremque doloribus nihil placeat quod tempora ut.</p>
             <div class="card-btn">Read More</div>
         </div>
-        <div class="card">
+        <div class="card2">
             <img class="card-icon"src="images/i3.png" alt="">
             <h4>Godīga un atklāta komunikācija</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus aliquam animi, at consectetur ea eum facere fugit illum ipsa maiores minima modi nobis non, obcaecati.</p>
             <div class="card-btn">Read More</div>
         </div>
-        <div class="card">
+        <div class="card2">
             <img class="card-icon"src="images/i4.png" alt="">
             <h4>Atbildība par rezultātu</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at doloribus eligendi esse, eum magni modi! Aliquid, aperiam asperiores.</p>
@@ -108,27 +134,12 @@
         </div>
     </div>
 
+</div>
 
 
 
-<!--    <div class="footer">-->
-<!--        <div class="footer-content">-->
-<!--            <p>Liepājas Valsts tehinkums &copy; 2023</p>-->
-<!--            <div class="icons">-->
-<!--                <div class="icon 1"></div>-->
-<!--                <div class="icon 2"></div>-->
-<!--                <div class="icon 3"></div>-->
-<!--                <div class="icon 4"></div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
 
-
-
-    </div>
-
-<div class="bottom">
+<div class="bottom" style="background-image: url(images/bg2.png)">
     <h2>Saņem īpašu atlaidi IT atbalstam</h2>
     <p>Lai saņemtu izdevīgu piedāvajumu, atstāj mums savu e-pasta adresi!:</p>
     <form action="index.php" method="post">
@@ -142,13 +153,16 @@
     <div class="footer2">
         <p>Liepājas Valsts tehinkums &copy; 2023</p>
         <div class="iconsa">
-        <img src="images/fb.png">
-        <img src="images/tw.png">
-        <img src="images/yt.png">
-        <img src="images/in.png">
-    </div>
+            <img src="images/fb.png">
+            <img src="images/tw.png">
+            <img src="images/yt.png">
+            <img src="images/in.png">
+        </div>
     </div>
 </div>
+
+<button onclick="topFunction()" id="backup" href=".top-bg"> <h2>^</h2>
+</button>
 
 </body>
 </html>
